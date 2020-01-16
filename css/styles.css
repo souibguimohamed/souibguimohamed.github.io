@@ -151,6 +151,25 @@ main {
 }
 
 @media all and (min-width: 1024px) {
+    #ieee-badge {
+        display: block;
+        position: fixed;
+        right: -5px;
+        top: 0;
+        width: 19%;
+        z-index: 10000;
+        padding: 0.5% 1%;
+        border-radius: 0 15px;
+    }
+    #ieee-logo {
+        display: block;
+        max-width: 228px;
+        min-width: 90px;
+        margin: 15px 0px 0px 20px;
+        width: 15%;
+        z-index: 10000;
+        padding: 6px 10px 1px 10px;
+    }
     .conditional-no-margin-top {
         margin-top: 0px;
     }
@@ -189,7 +208,32 @@ main {
     }
 }
 
+
+/* FOR MOBILE */
+
 @media all and (max-width: 1024px) {
+    #photo1 {
+        margin-top: 40px;
+    }
+    #ieee-badge {
+        display: block;
+        position: fixed;
+        right: 0px;
+        top: 6px;
+        width: 30%;
+        z-index: 10000;
+        padding: 0.5% 1%;
+        border-radius: 0 15px;
+    }
+    #ieee-logo {
+        display: block;
+        max-width: 228px;
+        min-width: 90px;
+        margin: 4px 0px 0px 0px;
+        width: 15%;
+        z-index: 10000;
+        padding: 6px 10px 1px 10px;
+    }
     .conditional-center {
         text-align: center;
     }
@@ -235,15 +279,4 @@ footer {
     height: 50px;
     line-height: 5px;
     text-align: center;
-}
-
-#ieee-badge {
-    display: block;
-    position: fixed;
-    right: -5px;
-    top: 0;
-    width: 19%;
-    z-index: 10000;
-    padding: 0.5% 1%;
-    border-radius: 0 15px;
 }
